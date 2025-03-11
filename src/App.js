@@ -89,8 +89,7 @@ class App extends Component {
                 >
                     TODO LIST
                 </Row>
-
-                <hr />
+                <hr className="border border-success border-3 opacity-75"/>
                 <Row>
                     <Col md={{ span: 5, offset: 4 }}>
                         <InputGroup className="mb-3">
@@ -137,7 +136,7 @@ class App extends Component {
                                         onClick={() => this.deleteItem(item.id)}>
                                           Delete
                                         </Button>
-                                        <Button variant = "light"
+                                        <Button variant = "success"
                                         onClick={() => this.editItem(index)}>
                                           Edit
                                         </Button>
